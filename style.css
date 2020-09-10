@@ -1,0 +1,28 @@
+body {
+    background: salmon;
+}
+
+.square {
+    background: white;
+}
+
+.img-1 {
+    float: left;
+    padding: 5px;
+
+}
+
+#main-nav {
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+
+
+/* #text1 {
+    padding: 25px;
+} */
