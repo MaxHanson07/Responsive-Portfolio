@@ -21,6 +21,11 @@ body {
     flex-grow: unset;
 }
 
+.portfolio-pics {
+    float: left;
+    padding: 10px;
+}
+
 
 
 /* #text1 {
