@@ -1,21 +1,26 @@
+/* Changes background color to a light gray */
 body {
     background: rgb(142, 145, 161);
 }
 
+/* Moves Nav links to right while keeping personal name on left */
 #main-nav {
     justify-content: space-between;
     display: flex;
 }
 
+/* Stops the navbar's collapse from growing and refusing to move */
 .navbar-collapse {
     flex-grow: unset;
 }
 
+/* Changes container's color to white and adds padding */
 .square {
     background: white;
     padding: 5px;
 }
 
+/* Changes all header colors to a blue */
 .heading {
     color: rgb(0, 119, 255);
 }
@@ -37,8 +42,3 @@ body {
     max-width: 100%;
     height: auto;
   }
-
-.submit-btn {
-    padding: 5px;
-}
-
