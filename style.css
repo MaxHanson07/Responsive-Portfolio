@@ -1,15 +1,5 @@
 body {
-    background: salmon;
-}
-
-.square {
-    background: white;
-}
-
-.img-1 {
-    float: left;
-    padding: 5px;
-
+    background: rgb(142, 145, 161);
 }
 
 #main-nav {
@@ -21,13 +11,34 @@ body {
     flex-grow: unset;
 }
 
+.square {
+    background: white;
+    padding: 5px;
+}
+
+.heading {
+    color: rgb(0, 119, 255);
+}
+
+/* Only for index file image */
+.img-1 {
+    float: left;
+    padding: 5px;
+}
+
+/* Only for images on portfolio.html */
 .portfolio-pics {
     float: left;
     padding: 10px;
 }
 
+/* For all images on all files */
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
 
+.submit-btn {
+    padding: 5px;
+}
 
-/* #text1 {
-    padding: 25px;
-} */
